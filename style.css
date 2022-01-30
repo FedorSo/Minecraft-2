@@ -1,0 +1,216 @@
+body{
+    background-image: url(Images/fon.png);
+    color: white;
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header{
+    display: flex;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    margin: 20px 10px 20px;
+}
+
+.logo-minecraft{
+    margin-left: 10px;
+}
+
+/* Welcome section */
+
+.welcome{
+    position: relative;
+}
+
+.welcome-images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.about-text{
+    font-size: 22px;
+    line-height: 1.2em;
+    text-shadow: 2px 3px 4px #000000;
+    max-width: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+}
+
+.about-text p{
+    margin-bottom: 10px;
+}
+
+/* Кнопки */
+
+.welcome-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome-buttons button{
+    width: 160px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+button img{
+    vertical-align: middle;
+}
+
+/* About section */
+
+.about-heading{
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.about-item{
+    display: flex;
+    margin: 25px 0 20px 20px;
+}
+
+.about-item img{
+    margin-right: 5px;
+}
+
+/* Form section */
+
+.message-form{
+    max-width: 300px;
+    border: 2px ridge rgb(255, 0, 0);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 30px;
+}
+
+.message-form fieldset{
+    border: 4px ridge rgb(255, 255, 255);
+    max-width: 300px;
+}
+
+.label-text{
+    display: block;
+}
+
+.message-form button{
+    border-radius: 9px;
+    background-color: coral;
+    color: white;
+    height: 35px;
+    text-align: center;
+}
+
+.massege-input{
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0 10px 0;
+}
+
+textarea{
+    resize: none;
+}
+
+.fixed{
+    position: fixed;
+    right: 20px;
+}
+
+.fixed-button{
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgb(43, 255, 0);
+    bottom: 20px;
+}
+
+.fixed-button_1{
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgb(43, 255, 0);
+    bottom: 60px;
+}
+
+/* slider-section */
+
+.slider-heading{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.slider-image{
+    align-items: center;
+    display: flex;
+}
+
+.slider-image img{
+    height: 450px;
+    width: 250px;
+}
+
+.arrow{
+    font-size: 50px;
+    padding: 0 20px 0 20px;
+}
+
+.arrow:hover{
+    color: rgb(230, 118, 118);
+    cursor: pointer;
+}
+
+.slider-wrapper{
+    display: flex;
+    margin: 30px 0 60px;
+    justify-content: center;
+}
+
+.description{
+    padding: 30px;
+    border: 2px solid;
+    margin: 30px 0 30px 100px;
+    max-width: 350px;
+}
+
+.description-name{
+    font-size: 30px;
+    color: rgb(212, 75, 56);
+    margin-bottom: 40px;
+}
+
+.description-text{
+    font-size: 20px;
+}
+
+.description button{
+    background-color: rgb(212, 75, 56);
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 22px;
+    margin-top: 100px;
+    color: white;
+}
+
+
+
+/* Дополнительная информация */
+
+.footer ul{
+    list-style-type: none;
+    font-size: 18px;
+}
